@@ -13,11 +13,13 @@
 
 .header__menu-hamburguer {
     display: inline-block;
-    fill: #002F52;
+    fill: var(--blue-800);
+    transition: .5s;
+    
 }
 
 .container__img {
-    padding: .8em;
+    padding: .8em 0.5em;
 }
 
 .list__menu {
@@ -51,4 +53,25 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+
+ /* Animate  */
+.container__button:checked ~ label .header__menu-hamburguer {
+    fill: var(--orange) !important;
+    transform: rotate(180deg);
+}
+
+.container__button:checked ~ ul {
+    animation: fromLeft .3s .2s backwards;
+}
+
+@keyframes fromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
