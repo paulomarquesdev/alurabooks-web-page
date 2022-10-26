@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Alura Books</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu">
+                <svg class="header__menu-hamburguer container__img" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 36H42V32H6V36ZM6 26H42V22H6V26ZM6 12V16H42V12H6Z" />
+                </svg>
+            </label>
+            <ul class="list__menu">
+                <li class="list__menu-title">Categorias</li>
+                <li class="list__menu-item">
+                    <a href="#" class="list__menu-link">Programação</a>
+                </li>
+                <li class="list__menu-item">
+                    <a href="#" class="list__menu-link">Front-End</a>
+                </li>
+                <li class="list__menu-item">
+                    <a href="#" class="list__menu-link">Infraestrutura</a>
+                </li>
+                <li class="list__menu-item">
+                    <a href="#" class="list__menu-link">Business</a>
+                </li>
+                <li class="list__menu-item">
+                    <a href="#" class="list__menu-link">Design &amp; UX</a>
+                </li>
+            </ul>
+            <img src="./assets/img/Logo.svg" alt="Logo da AluraBooks" class="container__img">
+        </div>
+        <div class="container">
+            <a href="#"><img src="./assets/img/Favoritos.svg" alt="Meus favoritos" class="container__img"></a>
+            <a href="#"><img src="./assets/img/Compras.svg" alt="Carinho de compras" class="container__img"></a>
+            <a href="#"><img src="./assets/img/Usuário.svg" alt="Meu perfil" class="container__img"></a>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <h2 class="banner__title">Já sabe por onde começar?</h2>
+        <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
+    </section>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__title">ÚLTIMOS LANÇAMENTOS</h2>
+
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/Apache-Kafka-Digital__Facebook_large.jpg?v=1643659546" alt="Capa livro apache kafka casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/LiderancaemDesign_Facebook_large.jpg?v=1631656080" alt="Capa livro liderança em design casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/p_ed64bfb5-32cb-4744-9fa8-7686ba330da6_large.png?v=1633721813" alt="Capa livro javascript assertive casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0155/7645/products/Ouniversodaprogramacao_ebook_large.jpg?v=1631654023" alt="Capa livro o universo da programação casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0155/7645/products/LogicadeProgramacao_ebook_large.jpg?v=1631656015" alt="Capa livro logica de programação casa do código">
+                </div>
+              ...
+            </div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <div class="card__description">
+                <div class="description">
+                    <h3 class="description__title">Talvez você também se interesse por...</h3>
+                    <h2 class="description__title-book">Angular 11 e Firebase</h2>
+                    <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="./assets/img/Angular.png" alt="imagem logo angular com fundo azul" class="description__img">
+            </div>
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="buttons__item">
+                        <img src="./assets/img/Favoritos.svg" alt="Favoritar livro">
+                    </li>
+                    <li class="buttons__item">
+                        <img src="./assets/img/Compras.svg" alt="Adicionar no carrinho de compras">
+                    </li>
+                </ul>
+                <a href="#" class="buttons__ancor">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__title">MAIS VENDIDOS</h2>
+
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/Apache-Kafka-Digital__Facebook_large.jpg?v=1643659546" alt="Capa livro apache kafka casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/LiderancaemDesign_Facebook_large.jpg?v=1631656080" alt="Capa livro liderança em design casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://cdn.shopify.com/s/files/1/0155/7645/products/p_ed64bfb5-32cb-4744-9fa8-7686ba330da6_large.png?v=1633721813" alt="Capa livro javascript assertive casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0155/7645/products/Ouniversodaprogramacao_ebook_large.jpg?v=1631654023" alt="Capa livro o universo da programação casa do código">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0155/7645/products/LogicadeProgramacao_ebook_large.jpg?v=1631656015" alt="Capa livro logica de programação casa do código">
+                </div>
+              ...
+            </div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <div class="card__description">
+                <div class="description">
+                    <img src="./assets/img/Estrelinhas.png" alt="estrelas de avaliação" class="description__rating">
+                    <h3 class="description__title">Autora do Mês.</h3>
+                    <h2 class="description__title-book">Juliana Agarikov</h2>
+                    <p class="description__text">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <img src="./assets/img/Perfil-escritora 1.png" alt="imagem logo angular com fundo azul" class="description__img">
+            </div>
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="buttons__item">
+                        <img src="./assets/img/Favoritos.svg" alt="Favoritar livro">
+                    </li>
+                    <li class="buttons__item">
+                        <img src="./assets/img/Compras.svg" alt="Adicionar no carrinho de compras">
+                    </li>
+                </ul>
+                <a href="#" class="buttons__ancor">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="topics">
+        <h2 class="topics__title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topics__list">
+            <li class="topics__item">
+                <a href="#" class="topics__link">Android</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">Marketing Digital</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">Agile</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">Startups</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">HTML & CSS</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">Python</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">POO</a>
+            </li>
+            <li class="topics__item">
+                <a href="#" class="topics__link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
+    </section>
+
+    <hr/>
+
+    <footer class="footer">
+        <h2 class="footer__title">Grupo Alura</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/scripts.js"></script>
+</body>
+</html>

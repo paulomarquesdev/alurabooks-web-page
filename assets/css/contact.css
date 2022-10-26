@@ -1,0 +1,48 @@
+.contact {
+    background-color: var(--white);
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact__title,
+.contact__text {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.contact__title {
+    font-size: var(--font-size-7);
+    font-weight: var(--font-weight-medium);
+}
+
+.contact__text {
+    font-weight: var(--font-weight-light)
+}
+
+.contact__email {
+    display: inline-block;
+    padding: 0.5em;
+    border: var(--blue-800) solid 1px;
+    border-radius: 60px;
+    width: 94%;
+    color: var(--blue-800);
+}
+
+.contact__email::placeholder {
+    font-family: var(--font-main);
+    color: var(--blue-800);
+    background: url("../img/Email.svg") no-repeat;
+    background-position: 0.5em;
+    background-size: contain;
+    padding-left: 2.5em;
+}
+
+.contact__email:focus, .contact__email:focus-visible {
+    border-color: var(--orange);
+}

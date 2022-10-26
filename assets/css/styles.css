@@ -1,0 +1,39 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("card.css");
+@import url("topics.css");
+@import url("contact.css");
+@import url("footer.css");
+
+:root {
+    --background-color: #ebecee;
+    --white: #FFFFFF;
+    --orange: #EB9B00;
+    --blue-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --blue-800: #002F52;
+
+    --font-main: 'Poppins';
+    --font-size-1: 36px;
+    --font-size-2: 32px;
+    --font-size-3: 30px;
+    --font-size-4: 26px;
+    --font-size-5: 24px;
+    --font-size-6: 20px;
+    --font-size-7: 18px;
+    --font-size-8: 16px;
+    --font-size-9: 14px;
+    --font-size-10: 12px;
+    --font-weight-light: 300; 
+    --font-weight-regular: 400; 
+    --font-weight-medium: 500; 
+    --font-weight-bold: 700; 
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-main), sans-serif;
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-regular);
+}
+
