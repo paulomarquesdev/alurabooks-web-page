@@ -61,3 +61,12 @@
 .description__rating {
     width: 55%;
 }
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 45%;
+        margin: 2em auto;
+    }
+
+    
+}

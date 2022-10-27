@@ -22,7 +22,8 @@
 }
 
 .contact__text {
-    font-weight: var(--font-weight-light)
+    font-weight: var(--font-weight-light);
+    margin: 0.5em 0 0.2em 0;
 }
 
 .contact__email {
@@ -45,4 +46,33 @@
 
 .contact__email:focus, .contact__email:focus-visible {
     border-color: var(--orange);
+}
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 8em;
+        gap: 2em;
+    }
+
+    .contact__description {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .contact__title {
+        font-size: var(--font-size-5);
+    }
+
+    .contact__text {
+        margin: 0;
+    }
+    
+    .contact__email {
+        width: 40%;
+    }
 }

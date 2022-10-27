@@ -8,12 +8,15 @@
 
 :root {
     --background-color: #ebecee;
+    --gray-500: #858585;
+    --gray-700: #474646;
     --white: #FFFFFF;
     --orange: #EB9B00;
-    --blue-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --blue-800: #002F52;
+    --blue-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
     --font-main: 'Poppins';
+    --font-secondary: 'Josefin Sans';
     --font-size-1: 36px;
     --font-size-2: 32px;
     --font-size-3: 30px;
