@@ -28,6 +28,7 @@
     padding: 1em;
 }
 
+/* Layout 1024px  */
 @media screen and (min-width: 1024px) {
     .topics__title, .topics__link {
         font-size: var(--font-size-5);
@@ -35,5 +36,16 @@
 
     .topics__item {
         margin: 2.8em 1em
+    }
+}
+
+/* Layout 1728px  */
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 4em 20vw;
+    }
+
+    .topics__title {
+        font-size: var(--font-size-2);
     }
 }

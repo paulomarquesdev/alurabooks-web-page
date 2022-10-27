@@ -11,6 +11,7 @@ hr {
     display: none;
 }
 
+/* Layout 1024px  */
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;
@@ -45,5 +46,18 @@ hr {
 
     .footer__list-link {
         color: var(--gray-700)
+    }
+}
+
+/* Layout 1728px  */
+@media screen and (min-width: 1728px) {
+    .footer {
+        justify-content: space-evenly;
+        padding: 3em 2em;
+    }
+    
+    .footer__list {
+        border-left: var(--gray-500) solid 1px;
+        padding-left: 1em;
     }
 }
