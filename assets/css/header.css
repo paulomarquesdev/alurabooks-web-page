@@ -15,10 +15,6 @@
     padding-left: 0.5em;
 }
 
-.container__label ~ .container__label > .header__menu-hamburguer {
-    
-}
-
 .header__menu-hamburguer {
     display: inline-block;
     fill: var(--blue-800);
@@ -26,6 +22,7 @@
 }
 
 .container__img {
+    display: block;
     padding: .8em 0.8em;
 }
 
@@ -85,7 +82,7 @@
 }
 
 
-.container__title, .options, .container__img-hidden {
+.container__title, .options {
     display: none;
 }
 
@@ -94,7 +91,7 @@
     .header {
         padding: 0 3.5em;
     }
-
+    
     .container__button, .header__menu-hamburguer {
         display: none;
     }
@@ -102,7 +99,11 @@
     .container__title {
         display: block;
     }
-
+    
+    .container__img-hidden {
+        display: none;
+    }
+    
     .container__title, .container__title-bold {
         font-family: var(--secondary-font);
         font-size: var(--font-size-3);
