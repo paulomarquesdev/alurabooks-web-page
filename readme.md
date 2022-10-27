@@ -16,7 +16,7 @@ Projeto construído durante o curso HTML e CSS: Responsividade com Mobile-first,
 
 ## 💻 Projeto
 
-O AluraBooks é uma página de vendas de livros. A página foi desenvolvida com responsividade entre telas, aplicando a metodologia mobile-first.
+O AluraBooks é uma página responsiva de vendas de livros. A página foi desenvolvida aplicando a metodologia mobile-first.
 
 ## 🔖 Layout
 
